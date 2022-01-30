@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Rosario', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 43px;
+}
+
+.wrap__1240 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1240px;
+    width: 100%;
+
+    margin: auto;
+}
+
+.header__nav {
+    max-width: 374px;
+    width: 100%;
+}
+
+.header__ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul__li {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222;
+}
+
+.header__logo {
+    max-width: 56px;
+    width: 100%;
+}
+
+.header__remote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 292px;
+    width: 100%;
+}
+
+.header__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bascket_icon {
+    display: flex;
+    align-items: center;
+}
+
+.icons__a {
+    max-width: 40px;
+    width: 100%;
+
+    background-color: #F3FBF8;
+    border-radius: 100%;
+}
+
+.header__register {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFF;
+
+    max-width: 160px;
+    width: 100%;
+
+    padding: 10px 23px;
+
+    border-radius: 8px;
+    background: #09A66D;
+}
