@@ -173,6 +173,7 @@ a {
 
 .section__decor-img {
     background-image: url('../img/fresh-melientha.png');
+    background-repeat: no-repeat;
 
     max-width: 612px;
     width: 100%;
